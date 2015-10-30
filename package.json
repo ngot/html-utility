@@ -1,0 +1,14 @@
+{
+  "name": "html-utility",
+  "version": "1.0.0",
+  "description": "html utlity",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "html"
+  ],
+  "author": "ngot",
+  "license": "MIT"
+}
