@@ -15,6 +15,13 @@ module.exports = {
     script.src = src;
     head.appendChild(script);
   },
+  appendScriptContent: function (doc, content) {
+    var head = doc.head || doc.body;
+    var script = doc.createElement("script");
+    script.type = "text/javascript";
+    script.text = content;
+    head.appendChild(script);
+  },
   appendLink: function (doc, href) {
     var head = doc.head;
     var link = doc.createElement('link');
